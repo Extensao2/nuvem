@@ -6,7 +6,7 @@ Parameters:
     Type: String
     Default: nuvem
   RepositoryUrl:
-    Description: URL of the source code repository (GitHub)
+    Description: URL of the source code repository
     Type: String
     Default: https://github.com/Extensao2/nuvem
   Branch:

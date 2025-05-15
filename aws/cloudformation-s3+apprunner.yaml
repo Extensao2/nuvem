@@ -1,0 +1,191 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Deploy GitHub repo to S3 (static) and App Runner (dynamic)
+Parameters:
+  GitHubRepoUrl:
+    Type: String
+    Description: GitHub repository URL (e.g., https://github.com/username/repo)
+  GitHubBranch:
+    Type: String
+    Description: Branch name
+    Default: main
+  GitHubToken:
+    Type: String
+    Description: GitHub personal access token
+    NoEcho: true
+  AppRunnerServiceName:
+    Type: String
+    Description: Name for the App Runner service
+    Default: node-app-service
+  NodeVersion:
+    Type: String
+    Description: Node.js version
+    Default: 22
+  Port:
+    Type: Number
+    Description: Port your Node.js app listens on
+    Default: 3000
+Resources:
+  StaticContentBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub static-content-${AWS::AccountId}-${AWS::Region}
+      OwnershipControls:
+        Rules:
+          - ObjectOwnership: BucketOwnerPreferred
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: error.html
+  StaticContentBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref StaticContentBucket
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal: '*'
+            Action:
+              - s3:GetObject
+            Resource: !Sub '${StaticContentBucket.Arn}/*'
+  AppRunnerRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: tasks.apprunner.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AWSXRayDaemonWriteAccess
+  NodeAppService:
+    Type: AWS::AppRunner::Service
+    Properties:
+      ServiceName: !Ref AppRunnerServiceName
+      SourceConfiguration:
+        AuthenticationConfiguration:
+          ConnectionArn: !Sub arn:aws:apprunner:${AWS::Region}:${AWS::AccountId}:connection/github/MyGitHubConnection
+        CodeRepository:
+          RepositoryUrl: !Ref GitHubRepoUrl
+          SourceCodeVersion:
+            Type: BRANCH
+            Value: !Ref GitHubBranch
+          CodeConfiguration:
+            ConfigurationSource: API
+            CodeConfigurationValues:
+              Runtime: NODEJS_!Ref NodeVersion
+              BuildCommand: npm install && npm run build
+              StartCommand: npm start
+              Port: !Ref Port
+              RuntimeEnvironmentVariables:
+                - Name: NODE_ENV
+                  Value: production
+                - Name: STATIC_CONTENT_URL
+                  Value: !GetAtt StaticContentBucket.WebsiteURL
+      InstanceConfiguration:
+        Cpu: 1 vCPU
+        Memory: 2 GB
+        InstanceRoleArn: !GetAtt AppRunnerRole.Arn
+  DistSyncLambdaRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: S3Access
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:PutObject
+                  - s3:ListBucket
+                  - s3:DeleteObject
+                Resource:
+                  - !GetAtt StaticContentBucket.Arn
+                  - !Sub '${StaticContentBucket.Arn}/*'
+        - PolicyName: LambdaBasic
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource: '*'
+  DistSyncLambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: GitHubDistToS3Sync
+      Runtime: python3.9
+      Handler: index.lambda_handler
+      Role: !GetAtt DistSyncLambdaRole.Arn
+      Timeout: 300
+      Environment:
+        Variables:
+          GITHUB_TOKEN: !Ref GitHubToken
+          S3_BUCKET: !Ref StaticContentBucket
+      Code:
+        ZipFile: |
+          import os
+          import boto3
+          import requests
+          import zipfile
+          import io
+          import tempfile
+          
+          s3 = boto3.client(s3)
+          
+          def lambda_handler(event, context):
+              repo_url = event[repo_url]
+              branch = event.get(branch, main)
+              bucket = os.environ[S3_BUCKET]
+              
+              # Get repo zip download URL
+              repo_path = repo_url.split(github.com/)[1].rstrip(/)
+              zip_url = f"https://api.github.com/repos/{repo_path}/zipball/{branch}"
+              
+              # Download the repo
+              headers = {Authorization: f"token {os.environ[GITHUB_TOKEN]}"}
+              response = requests.get(zip_url, headers=headers)
+              zip_content = io.BytesIO(response.content)
+              
+              # Extract and upload only dist folder contents
+              with zipfile.ZipFile(zip_content) as zip_ref:
+                  for file in zip_ref.namelist():
+                      if file.startswith(dist/) and not file.endswith(/):
+                          file_data = zip_ref.read(file)
+                          s3_key = file.split(dist/)[1]  # Remove dist/ prefix
+                          s3.put_object(
+                              Bucket=bucket,
+                              Key=s3_key,
+                              Body=file_data,
+                              ContentType=text/html if s3_key.endswith(.html) else 
+                                        application/javascript if s3_key.endswith(.js) else
+                                        text/css if s3_key.endswith(.css) else
+                                        application/octet-stream
+                          )
+              return {
+                  statusCode: 200,
+                  body: f"Successfully synced dist folder to {bucket}"
+              }
+  SyncDistTrigger:
+    Type: Custom::SyncDist
+    Properties:
+      ServiceToken: !GetAtt DistSyncLambda.Arn
+      repo_url: !Ref GitHubRepoUrl
+      branch: !Ref GitHubBranch
+Outputs:
+  StaticSiteUrl:
+    Description: URL of the static site (S3)
+    Value: !GetAtt StaticContentBucket.WebsiteURL
+  AppRunnerUrl:
+    Description: URL of the Node.js App Runner service
+    Value: !GetAtt NodeAppService.ServiceUrl
