@@ -1,6 +1,6 @@
 services:
   mongodb:
-    image: mongo
+    image: l33tlamer/mongodb-without-avx
     restart: always
     ports:
       - 27017:27017/tcp
