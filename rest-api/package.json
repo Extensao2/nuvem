@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "start": "node --experimental-strip-types backend.ts"
+  }
+}
