@@ -2,15 +2,11 @@ services:
   mongodb:
     image: l33tlamer/mongodb-without-avx
     restart: always
-    ports:
-      - 27017:27017/tcp
     volumes:
       - ./mongo_data:/data/db
   n8n:
     image: n8nio/n8n
     restart: always
-    ports:
-      - 5678:5678/tcp
     environment:
       - DB_TYPE=mongodb
       - DB_MONGODB_CONNECTION_URL=mongodb://mongodb:27017/n8n
