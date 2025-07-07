@@ -3,3 +3,6 @@ credentials.sh
 .terraform*
 terraform.tfstate*
 node_modules/
+n8n_data/
+mongo_data/
+.env
