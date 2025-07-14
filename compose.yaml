@@ -5,7 +5,7 @@ services:
     volumes:
       - ./mongo_data:/data/db
   n8n:
-    image: n8nio/n8n
+    image: docker.n8n.io/n8nio/n8n
     restart: always
     environment:
       - DB_TYPE=mongodb
