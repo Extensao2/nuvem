@@ -1,5 +1,8 @@
 all: stop start
 
+update:
+	docker compose pull
+
 stop:
 	docker compose down
 
