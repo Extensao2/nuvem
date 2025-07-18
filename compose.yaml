@@ -4,31 +4,22 @@ services:
     restart: always
     volumes:
       - ./mongo_data:/data/db
-  n8n:
-    image: docker.n8n.io/n8nio/n8n
+  rest-api:
+    image: node:lts
+    command: "npm --prefix=/app start"
     restart: always
-    environment:
-      - DB_TYPE=mongodb
-      - DB_MONGODB_CONNECTION_URL=mongodb://mongodb:27017/n8n
-      - N8N_BASIC_AUTH_ACTIVE=true
-      - N8N_HOST=localhost
-      - N8N_PORT=5678
-      - N8N_PROTOCOL=http
-      - NODE_ENV=production
-    depends_on:
-      - mongodb
     volumes:
-      - ./n8n_data:/home/node/.n8n
+      - ./extensao-server:/app
   nginx:
     image: nginx:latest
     depends_on:
-      - n8n
+      - rest-api
     ports:
       - 80:80/tcp
       - 443:443/tcp
       - 443:443/udp
     volumes:
-      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./http-proxy/nginx.conf:/etc/nginx/conf.d/default.conf:ro
       - /etc/letsencrypt/live/extensaoads2.sj.ifsc.edu.br/fullchain.pem:/etc/nginx/fullchain.pem:ro
       - /etc/letsencrypt/live/extensaoads2.sj.ifsc.edu.br/privkey.pem:/etc/nginx/privkey.pem:ro
     restart: always

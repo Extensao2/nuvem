@@ -1,0 +1,3352 @@
+[
+  {
+    "event_type": "started_video",
+    "user_id": 1001,
+    "session_id": 1,
+    "timestamp": "2025-07-05T10:00:00Z",
+    "metadata": {
+      "video_id": "vid-learn-001",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "paused_video",
+    "user_id": 1001,
+    "session_id": 1,
+    "timestamp": "2025-07-05T10:05:30Z",
+    "metadata": {
+      "video_id": "vid-learn-001",
+      "current_time": 330
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "seeked_video",
+    "user_id": 1001,
+    "session_id": 1,
+    "timestamp": "2025-07-05T10:06:00Z",
+    "metadata": {
+      "video_id": "vid-learn-001",
+      "from_time": 330,
+      "to_time": 340
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1001,
+    "session_id": 1,
+    "timestamp": "2025-07-05T10:20:15Z",
+    "metadata": {
+      "video_id": "vid-learn-001",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1002,
+    "session_id": 2,
+    "timestamp": "2025-07-05T10:10:00Z",
+    "metadata": {
+      "text_id": "doc-intro-001"
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "scrolled_text",
+    "user_id": 1002,
+    "session_id": 2,
+    "timestamp": "2025-07-05T10:12:45Z",
+    "metadata": {
+      "text_id": "doc-intro-001",
+      "scroll_depth": 50,
+      "scroll_speed": "fast",
+      "paused_sections": []
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1002,
+    "session_id": 2,
+    "timestamp": "2025-07-05T10:18:00Z",
+    "metadata": {
+      "text_id": "doc-intro-001",
+      "read_duration": 480
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1003,
+    "session_id": 3,
+    "timestamp": "2025-07-05T10:25:00Z",
+    "metadata": {
+      "page_id": "/courses/machine-learning",
+      "referrer": "/dashboard"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "search_performed",
+    "user_id": 1003,
+    "session_id": 3,
+    "timestamp": "2025-07-05T10:26:30Z",
+    "metadata": {
+      "query": "redes neurais",
+      "results_count": 15
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1004,
+    "session_id": 4,
+    "timestamp": "2025-07-05T10:30:00Z",
+    "metadata": {
+      "video_id": "vid-alg-005",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "rewatched_segment",
+    "user_id": 1004,
+    "session_id": 4,
+    "timestamp": "2025-07-05T10:35:10Z",
+    "metadata": {
+      "video_id": "vid-alg-005",
+      "start_time": 120,
+      "end_time": 150,
+      "times_rewatched": 2
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "abandoned_video",
+    "user_id": 1004,
+    "session_id": 4,
+    "timestamp": "2025-07-05T10:38:00Z",
+    "metadata": {
+      "video_id": "vid-alg-005",
+      "watched_duration": 480,
+      "video_length": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "inactive_too_long",
+    "user_id": 1005,
+    "session_id": 5,
+    "timestamp": "2025-07-05T10:45:00Z",
+    "metadata": {
+      "inactive_duration": 300
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1006,
+    "session_id": 6,
+    "timestamp": "2025-07-05T10:50:00Z",
+    "metadata": {
+      "text_id": "book-chp-2-data"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "highlighted_text",
+    "user_id": 1006,
+    "session_id": 6,
+    "timestamp": "2025-07-05T10:55:00Z",
+    "metadata": {
+      "text_id": "book-chp-2-data",
+      "highlighted_text": "importância da limpeza de dados",
+      "start_offset": 520,
+      "end_offset": 550
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "focused_watch",
+    "user_id": 1007,
+    "session_id": 7,
+    "timestamp": "2025-07-05T11:00:00Z",
+    "metadata": {
+      "video_id": "vid-math-integral",
+      "duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "revisited_content",
+    "user_id": 1008,
+    "session_id": 8,
+    "timestamp": "2025-07-05T11:10:00Z",
+    "metadata": {
+      "content_type": "video",
+      "content_id": "vid-chem-elements",
+      "last_accessed": "2025-07-01T15:00:00Z"
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "distraction_signal",
+    "user_id": 1009,
+    "session_id": 9,
+    "timestamp": "2025-07-05T11:20:00Z",
+    "metadata": {
+      "event_source": "blur"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "hovered_doubt_zone",
+    "user_id": 1010,
+    "session_id": 10,
+    "timestamp": "2025-07-05T11:30:00Z",
+    "metadata": {
+      "element_id": "term-polymorphism",
+      "hover_duration": 5.2
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "replayed_video",
+    "user_id": 1011,
+    "session_id": 11,
+    "timestamp": "2025-07-05T11:40:00Z",
+    "metadata": {
+      "video_id": "vid-hist-ww1",
+      "from_time": 600
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "inactivity_detected",
+    "user_id": 1012,
+    "session_id": 12,
+    "timestamp": "2025-07-05T11:50:00Z",
+    "metadata": {
+      "duration": 60,
+      "trigger_point": "mouse_idle"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "reading_loop",
+    "user_id": 1013,
+    "session_id": 13,
+    "timestamp": "2025-07-05T12:00:00Z",
+    "metadata": {
+      "text_id": "doc-biology-dna",
+      "revisited_sections": [
+        "estrutura",
+        "replicação"
+      ]
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "video_playback_pattern",
+    "user_id": 1014,
+    "session_id": 14,
+    "timestamp": "2025-07-05T12:10:00Z",
+    "metadata": {
+      "video_id": "vid-physics-quantum",
+      "avg_speed": 1.25,
+      "pause_count": 3,
+      "skip_segments": [
+        {
+          "start": 10,
+          "end": 30
+        }
+      ]
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1001,
+    "session_id": 15,
+    "timestamp": "2025-07-05T12:30:00Z",
+    "metadata": {
+      "video_id": "vid-new-topic-002",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1005,
+    "session_id": 16,
+    "timestamp": "2025-07-05T12:35:00Z",
+    "metadata": {
+      "page_id": "/profile/settings",
+      "referrer": "/dashboard"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1002,
+    "session_id": 17,
+    "timestamp": "2025-07-05T12:40:00Z",
+    "metadata": {
+      "text_id": "doc-advanced-concepts"
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1002,
+    "session_id": 17,
+    "timestamp": "2025-07-05T12:55:00Z",
+    "metadata": {
+      "text_id": "doc-advanced-concepts",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1003,
+    "session_id": 18,
+    "timestamp": "2025-07-05T13:00:00Z",
+    "metadata": {
+      "video_id": "vid-proj-management"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "abandoned_reading",
+    "user_id": 1006,
+    "session_id": 6,
+    "timestamp": "2025-07-05T13:05:00Z",
+    "metadata": {
+      "text_id": "book-chp-2-data",
+      "last_position": 700,
+      "read_duration": 3000
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1003,
+    "session_id": 18,
+    "timestamp": "2025-07-05T13:30:00Z",
+    "metadata": {
+      "video_id": "vid-proj-management",
+      "total_time": 1800
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1004,
+    "session_id": 19,
+    "timestamp": "2025-07-05T13:35:00Z",
+    "metadata": {
+      "page_id": "/forum/topic/algorithms",
+      "referrer": "/courses/algorithms"
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1005,
+    "session_id": 20,
+    "timestamp": "2025-07-05T13:40:00Z",
+    "metadata": {
+      "video_id": "vid-data-structures",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "focused_watch",
+    "user_id": 1005,
+    "session_id": 20,
+    "timestamp": "2025-07-05T13:55:00Z",
+    "metadata": {
+      "video_id": "vid-data-structures",
+      "duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1007,
+    "session_id": 21,
+    "timestamp": "2025-07-05T14:00:00Z",
+    "metadata": {
+      "text_id": "article-ai-ethics"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "scrolled_text",
+    "user_id": 1007,
+    "session_id": 21,
+    "timestamp": "2025-07-05T14:03:30Z",
+    "metadata": {
+      "text_id": "article-ai-ethics",
+      "scroll_depth": 70,
+      "scroll_speed": "normal",
+      "paused_sections": [
+        "viés algorítmico"
+      ]
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1007,
+    "session_id": 21,
+    "timestamp": "2025-07-05T14:10:00Z",
+    "metadata": {
+      "text_id": "article-ai-ethics",
+      "read_duration": 600
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1008,
+    "session_id": 22,
+    "timestamp": "2025-07-05T14:15:00Z",
+    "metadata": {
+      "page_id": "/blog/new-features",
+      "referrer": ""
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1009,
+    "session_id": 23,
+    "timestamp": "2025-07-05T14:20:00Z",
+    "metadata": {
+      "video_id": "vid-python-basics",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "paused_video",
+    "user_id": 1009,
+    "session_id": 23,
+    "timestamp": "2025-07-05T14:25:00Z",
+    "metadata": {
+      "video_id": "vid-python-basics",
+      "current_time": 300
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "distraction_signal",
+    "user_id": 1009,
+    "session_id": 23,
+    "timestamp": "2025-07-05T14:25:10Z",
+    "metadata": {
+      "event_source": "visibilitychange"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1009,
+    "session_id": 23,
+    "timestamp": "2025-07-05T14:40:00Z",
+    "metadata": {
+      "video_id": "vid-python-basics",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1010,
+    "session_id": 24,
+    "timestamp": "2025-07-05T14:45:00Z",
+    "metadata": {
+      "text_id": "doc-frontend-frameworks"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "highlighted_text",
+    "user_id": 1010,
+    "session_id": 24,
+    "timestamp": "2025-07-05T14:50:00Z",
+    "metadata": {
+      "text_id": "doc-frontend-frameworks",
+      "highlighted_text": "comparação entre React e Vue",
+      "start_offset": 200,
+      "end_offset": 230
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1010,
+    "session_id": 24,
+    "timestamp": "2025-07-05T15:00:00Z",
+    "metadata": {
+      "text_id": "doc-frontend-frameworks",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1011,
+    "session_id": 25,
+    "timestamp": "2025-07-05T15:05:00Z",
+    "metadata": {
+      "video_id": "vid-design-patterns",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "abandoned_video",
+    "user_id": 1011,
+    "session_id": 25,
+    "timestamp": "2025-07-05T15:10:00Z",
+    "metadata": {
+      "video_id": "vid-design-patterns",
+      "watched_duration": 300,
+      "video_length": 1500
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1012,
+    "session_id": 26,
+    "timestamp": "2025-07-05T15:15:00Z",
+    "metadata": {
+      "page_id": "/faq",
+      "referrer": ""
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1013,
+    "session_id": 27,
+    "timestamp": "2025-07-05T15:20:00Z",
+    "metadata": {
+      "text_id": "doc-blockchain-basics"
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "reading_loop",
+    "user_id": 1013,
+    "session_id": 27,
+    "timestamp": "2025-07-05T15:25:00Z",
+    "metadata": {
+      "text_id": "doc-blockchain-basics",
+      "revisited_sections": [
+        "hash",
+        "prova de trabalho"
+      ]
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1013,
+    "session_id": 27,
+    "timestamp": "2025-07-05T15:35:00Z",
+    "metadata": {
+      "text_id": "doc-blockchain-basics",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1014,
+    "session_id": 28,
+    "timestamp": "2025-07-05T15:40:00Z",
+    "metadata": {
+      "video_id": "vid-cloud-computing",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "video_playback_pattern",
+    "user_id": 1014,
+    "session_id": 28,
+    "timestamp": "2025-07-05T15:55:00Z",
+    "metadata": {
+      "video_id": "vid-cloud-computing",
+      "avg_speed": 1.5,
+      "pause_count": 0,
+      "skip_segments": [
+        {
+          "start": 50,
+          "end": 80
+        }
+      ]
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1014,
+    "session_id": 28,
+    "timestamp": "2025-07-05T16:00:00Z",
+    "metadata": {
+      "video_id": "vid-cloud-computing",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1001,
+    "session_id": 29,
+    "timestamp": "2025-07-05T16:05:00Z",
+    "metadata": {
+      "page_id": "/exercises/loops",
+      "referrer": "/courses/python-basics"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1003,
+    "session_id": 30,
+    "timestamp": "2025-07-05T16:10:00Z",
+    "metadata": {
+      "text_id": "doc-agile-methodology"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "scrolled_text",
+    "user_id": 1003,
+    "session_id": 30,
+    "timestamp": "2025-07-05T16:13:00Z",
+    "metadata": {
+      "text_id": "doc-agile-methodology",
+      "scroll_depth": 60,
+      "scroll_speed": "normal",
+      "paused_sections": []
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1003,
+    "session_id": 30,
+    "timestamp": "2025-07-05T16:20:00Z",
+    "metadata": {
+      "text_id": "doc-agile-methodology",
+      "read_duration": 600
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1002,
+    "session_id": 31,
+    "timestamp": "2025-07-05T16:25:00Z",
+    "metadata": {
+      "video_id": "vid-web-security",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "paused_video",
+    "user_id": 1002,
+    "session_id": 31,
+    "timestamp": "2025-07-05T16:30:00Z",
+    "metadata": {
+      "video_id": "vid-web-security",
+      "current_time": 300
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1004,
+    "session_id": 32,
+    "timestamp": "2025-07-05T16:35:00Z",
+    "metadata": {
+      "video_id": "vid-data-science-intro",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "seeked_video",
+    "user_id": 1004,
+    "session_id": 32,
+    "timestamp": "2025-07-05T16:40:00Z",
+    "metadata": {
+      "video_id": "vid-data-science-intro",
+      "from_time": 100,
+      "to_time": 150
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1004,
+    "session_id": 32,
+    "timestamp": "2025-07-05T16:55:00Z",
+    "metadata": {
+      "video_id": "vid-data-science-intro",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1005,
+    "session_id": 33,
+    "timestamp": "2025-07-05T17:00:00Z",
+    "metadata": {
+      "page_id": "/support",
+      "referrer": ""
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1001,
+    "session_id": 34,
+    "timestamp": "2025-07-05T17:05:00Z",
+    "metadata": {
+      "text_id": "doc-sql-fundamentals"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "highlighted_text",
+    "user_id": 1001,
+    "session_id": 34,
+    "timestamp": "2025-07-05T17:10:00Z",
+    "metadata": {
+      "text_id": "doc-sql-fundamentals",
+      "highlighted_text": "tipos de JOINs",
+      "start_offset": 300,
+      "end_offset": 315
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1001,
+    "session_id": 34,
+    "timestamp": "2025-07-05T17:20:00Z",
+    "metadata": {
+      "text_id": "doc-sql-fundamentals",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1006,
+    "session_id": 35,
+    "timestamp": "2025-07-05T17:25:00Z",
+    "metadata": {
+      "video_id": "vid-java-oop",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "replayed_video",
+    "user_id": 1006,
+    "session_id": 35,
+    "timestamp": "2025-07-05T17:35:00Z",
+    "metadata": {
+      "video_id": "vid-java-oop",
+      "from_time": 500
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "abandoned_video",
+    "user_id": 1006,
+    "session_id": 35,
+    "timestamp": "2025-07-05T17:40:00Z",
+    "metadata": {
+      "video_id": "vid-java-oop",
+      "watched_duration": 900,
+      "video_length": 1800
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1007,
+    "session_id": 36,
+    "timestamp": "2025-07-05T17:45:00Z",
+    "metadata": {
+      "page_id": "/feedback",
+      "referrer": "/contact"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1008,
+    "session_id": 37,
+    "timestamp": "2025-07-05T17:50:00Z",
+    "metadata": {
+      "text_id": "article-data-privacy"
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1008,
+    "session_id": 37,
+    "timestamp": "2025-07-05T18:00:00Z",
+    "metadata": {
+      "text_id": "article-data-privacy",
+      "read_duration": 600
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1009,
+    "session_id": 38,
+    "timestamp": "2025-07-05T18:05:00Z",
+    "metadata": {
+      "video_id": "vid-machine-learning-advanced",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "focused_watch",
+    "user_id": 1009,
+    "session_id": 38,
+    "timestamp": "2025-07-05T18:35:00Z",
+    "metadata": {
+      "video_id": "vid-machine-learning-advanced",
+      "duration": 1800
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1010,
+    "session_id": 39,
+    "timestamp": "2025-07-05T18:40:00Z",
+    "metadata": {
+      "page_id": "/dashboard",
+      "referrer": ""
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1011,
+    "session_id": 40,
+    "timestamp": "2025-07-05T18:45:00Z",
+    "metadata": {
+      "text_id": "doc-software-architecture"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1011,
+    "session_id": 40,
+    "timestamp": "2025-07-05T19:00:00Z",
+    "metadata": {
+      "text_id": "doc-software-architecture",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1012,
+    "session_id": 41,
+    "timestamp": "2025-07-05T19:05:00Z",
+    "metadata": {
+      "video_id": "vid-networking-basics",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1012,
+    "session_id": 41,
+    "timestamp": "2025-07-05T19:20:00Z",
+    "metadata": {
+      "video_id": "vid-networking-basics",
+      "total_time": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1013,
+    "session_id": 42,
+    "timestamp": "2025-07-05T19:25:00Z",
+    "metadata": {
+      "page_id": "/courses",
+      "referrer": "/home"
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "search_performed",
+    "user_id": 1013,
+    "session_id": 42,
+    "timestamp": "2025-07-05T19:26:00Z",
+    "metadata": {
+      "query": "criptomoedas",
+      "results_count": 8
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1014,
+    "session_id": 43,
+    "timestamp": "2025-07-05T19:30:00Z",
+    "metadata": {
+      "video_id": "vid-cybersecurity-fundamentals",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "paused_video",
+    "user_id": 1014,
+    "session_id": 43,
+    "timestamp": "2025-07-05T19:35:00Z",
+    "metadata": {
+      "video_id": "vid-cybersecurity-fundamentals",
+      "current_time": 300
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1014,
+    "session_id": 43,
+    "timestamp": "2025-07-05T19:50:00Z",
+    "metadata": {
+      "video_id": "vid-cybersecurity-fundamentals",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1001,
+    "session_id": 44,
+    "timestamp": "2025-07-05T19:55:00Z",
+    "metadata": {
+      "text_id": "doc-frontend-best-practices"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "scrolled_text",
+    "user_id": 1001,
+    "session_id": 44,
+    "timestamp": "2025-07-05T19:58:00Z",
+    "metadata": {
+      "text_id": "doc-frontend-best-practices",
+      "scroll_depth": 40,
+      "scroll_speed": "slow",
+      "paused_sections": [
+        "otimização de performance"
+      ]
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "abandoned_reading",
+    "user_id": 1001,
+    "session_id": 44,
+    "timestamp": "2025-07-05T20:05:00Z",
+    "metadata": {
+      "text_id": "doc-frontend-best-practices",
+      "last_position": 600,
+      "read_duration": 600
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1002,
+    "session_id": 45,
+    "timestamp": "2025-07-05T20:10:00Z",
+    "metadata": {
+      "page_id": "/dashboard",
+      "referrer": ""
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1003,
+    "session_id": 46,
+    "timestamp": "2025-07-05T20:15:00Z",
+    "metadata": {
+      "video_id": "vid-leadership-skills",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1003,
+    "session_id": 46,
+    "timestamp": "2025-07-05T20:30:00Z",
+    "metadata": {
+      "video_id": "vid-leadership-skills",
+      "total_time": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1004,
+    "session_id": 47,
+    "timestamp": "2025-07-05T20:35:00Z",
+    "metadata": {
+      "text_id": "doc-mobile-development"
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1004,
+    "session_id": 47,
+    "timestamp": "2025-07-05T20:50:00Z",
+    "metadata": {
+      "text_id": "doc-mobile-development",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1005,
+    "session_id": 48,
+    "timestamp": "2025-07-05T20:55:00Z",
+    "metadata": {
+      "page_id": "/notifications",
+      "referrer": "/dashboard"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1007,
+    "session_id": 49,
+    "timestamp": "2025-07-05T21:00:00Z",
+    "metadata": {
+      "video_id": "vid-big-data-intro",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1007,
+    "session_id": 49,
+    "timestamp": "2025-07-05T21:20:00Z",
+    "metadata": {
+      "video_id": "vid-big-data-intro",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1008,
+    "session_id": 50,
+    "timestamp": "2025-07-05T21:25:00Z",
+    "metadata": {
+      "text_id": "article-quantum-computing"
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "scrolled_text",
+    "user_id": 1008,
+    "session_id": 50,
+    "timestamp": "2025-07-05T21:30:00Z",
+    "metadata": {
+      "text_id": "article-quantum-computing",
+      "scroll_depth": 60,
+      "scroll_speed": "normal",
+      "paused_sections": [
+        "superposição",
+        "emaranhamento"
+      ]
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "abandoned_reading",
+    "user_id": 1008,
+    "session_id": 50,
+    "timestamp": "2025-07-05T21:35:00Z",
+    "metadata": {
+      "text_id": "article-quantum-computing",
+      "last_position": 800,
+      "read_duration": 600
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1009,
+    "session_id": 51,
+    "timestamp": "2025-07-05T21:40:00Z",
+    "metadata": {
+      "page_id": "/settings/account",
+      "referrer": "/profile"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1010,
+    "session_id": 52,
+    "timestamp": "2025-07-05T21:45:00Z",
+    "metadata": {
+      "video_id": "vid-javascript-deep-dive",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1010,
+    "session_id": 52,
+    "timestamp": "2025-07-05T22:15:00Z",
+    "metadata": {
+      "video_id": "vid-javascript-deep-dive",
+      "total_time": 1800
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1011,
+    "session_id": 53,
+    "timestamp": "2025-07-05T22:20:00Z",
+    "metadata": {
+      "text_id": "doc-cyber-threats"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "highlighted_text",
+    "user_id": 1011,
+    "session_id": 53,
+    "timestamp": "2025-07-05T22:25:00Z",
+    "metadata": {
+      "text_id": "doc-cyber-threats",
+      "highlighted_text": "engenharia social",
+      "start_offset": 450,
+      "end_offset": 470
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1011,
+    "session_id": 53,
+    "timestamp": "2025-07-05T22:35:00Z",
+    "metadata": {
+      "text_id": "doc-cyber-threats",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1012,
+    "session_id": 54,
+    "timestamp": "2025-07-05T22:40:00Z",
+    "metadata": {
+      "page_id": "/contact",
+      "referrer": "/about-us"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1013,
+    "session_id": 55,
+    "timestamp": "2025-07-05T22:45:00Z",
+    "metadata": {
+      "video_id": "vid-deep-learning-basics",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "rewatched_segment",
+    "user_id": 1013,
+    "session_id": 55,
+    "timestamp": "2025-07-05T22:50:00Z",
+    "metadata": {
+      "video_id": "vid-deep-learning-basics",
+      "start_time": 100,
+      "end_time": 150,
+      "times_rewatched": 3
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1013,
+    "session_id": 55,
+    "timestamp": "2025-07-05T23:05:00Z",
+    "metadata": {
+      "video_id": "vid-deep-learning-basics",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1014,
+    "session_id": 56,
+    "timestamp": "2025-07-05T23:10:00Z",
+    "metadata": {
+      "page_id": "/pricing",
+      "referrer": "/courses"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1001,
+    "session_id": 57,
+    "timestamp": "2025-07-05T23:15:00Z",
+    "metadata": {
+      "video_id": "vid-git-basics",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "abandoned_video",
+    "user_id": 1001,
+    "session_id": 57,
+    "timestamp": "2025-07-05T23:25:00Z",
+    "metadata": {
+      "video_id": "vid-git-basics",
+      "watched_duration": 600,
+      "video_length": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1002,
+    "session_id": 58,
+    "timestamp": "2025-07-05T23:30:00Z",
+    "metadata": {
+      "text_id": "doc-devops-intro"
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1002,
+    "session_id": 58,
+    "timestamp": "2025-07-05T23:45:00Z",
+    "metadata": {
+      "text_id": "doc-devops-intro",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1003,
+    "session_id": 59,
+    "timestamp": "2025-07-05T23:50:00Z",
+    "metadata": {
+      "page_id": "/blog",
+      "referrer": "/home"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "search_performed",
+    "user_id": 1003,
+    "session_id": 59,
+    "timestamp": "2025-07-05T23:52:00Z",
+    "metadata": {
+      "query": "inteligencia artificial",
+      "results_count": 20
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1004,
+    "session_id": 60,
+    "timestamp": "2025-07-06T00:00:00Z",
+    "metadata": {
+      "video_id": "vid-clean-code-principles",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "video_playback_pattern",
+    "user_id": 1004,
+    "session_id": 60,
+    "timestamp": "2025-07-06T00:15:00Z",
+    "metadata": {
+      "video_id": "vid-clean-code-principles",
+      "avg_speed": 1.0,
+      "pause_count": 2,
+      "skip_segments": []
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1004,
+    "session_id": 60,
+    "timestamp": "2025-07-06T00:20:00Z",
+    "metadata": {
+      "video_id": "vid-clean-code-principles",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1005,
+    "session_id": 61,
+    "timestamp": "2025-07-06T00:25:00Z",
+    "metadata": {
+      "page_id": "/about-us",
+      "referrer": "/home"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1006,
+    "session_id": 62,
+    "timestamp": "2025-07-06T00:30:00Z",
+    "metadata": {
+      "text_id": "doc-databases-sql-nosql"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "scrolled_text",
+    "user_id": 1006,
+    "session_id": 62,
+    "timestamp": "2025-07-06T00:35:00Z",
+    "metadata": {
+      "text_id": "doc-databases-sql-nosql",
+      "scroll_depth": 75,
+      "scroll_speed": "normal",
+      "paused_sections": [
+        "modelos de dados"
+      ]
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1006,
+    "session_id": 62,
+    "timestamp": "2025-07-06T00:45:00Z",
+    "metadata": {
+      "text_id": "doc-databases-sql-nosql",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1007,
+    "session_id": 63,
+    "timestamp": "2025-07-06T00:50:00Z",
+    "metadata": {
+      "video_id": "vid-frontend-performance",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1007,
+    "session_id": 63,
+    "timestamp": "2025-07-06T01:10:00Z",
+    "metadata": {
+      "video_id": "vid-frontend-performance",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1008,
+    "session_id": 64,
+    "timestamp": "2025-07-06T01:15:00Z",
+    "metadata": {
+      "page_id": "/search-results?q=blockchain",
+      "referrer": "/search"
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1009,
+    "session_id": 65,
+    "timestamp": "2025-07-06T01:20:00Z",
+    "metadata": {
+      "text_id": "doc-ethics-in-ai"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "highlighted_text",
+    "user_id": 1009,
+    "session_id": 65,
+    "timestamp": "2025-07-06T01:25:00Z",
+    "metadata": {
+      "text_id": "doc-ethics-in-ai",
+      "highlighted_text": "responsabilidade algorítmica",
+      "start_offset": 300,
+      "end_offset": 330
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1009,
+    "session_id": 65,
+    "timestamp": "2025-07-06T01:35:00Z",
+    "metadata": {
+      "text_id": "doc-ethics-in-ai",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1010,
+    "session_id": 66,
+    "timestamp": "2025-07-06T01:40:00Z",
+    "metadata": {
+      "video_id": "vid-unit-testing",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "abandoned_video",
+    "user_id": 1010,
+    "session_id": 66,
+    "timestamp": "2025-07-06T01:45:00Z",
+    "metadata": {
+      "video_id": "vid-unit-testing",
+      "watched_duration": 300,
+      "video_length": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1011,
+    "session_id": 67,
+    "timestamp": "2025-07-06T01:50:00Z",
+    "metadata": {
+      "page_id": "/instructor-profile/dr-silva",
+      "referrer": "/courses/data-science"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1012,
+    "session_id": 68,
+    "timestamp": "2025-07-06T01:55:00Z",
+    "metadata": {
+      "text_id": "doc-cloud-security"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1012,
+    "session_id": 68,
+    "timestamp": "2025-07-06T02:10:00Z",
+    "metadata": {
+      "text_id": "doc-cloud-security",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1013,
+    "session_id": 69,
+    "timestamp": "2025-07-06T02:15:00Z",
+    "metadata": {
+      "video_id": "vid-agile-scrum",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1013,
+    "session_id": 69,
+    "timestamp": "2025-07-06T02:30:00Z",
+    "metadata": {
+      "video_id": "vid-agile-scrum",
+      "total_time": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1014,
+    "session_id": 70,
+    "timestamp": "2025-07-06T02:35:00Z",
+    "metadata": {
+      "page_id": "/dashboard",
+      "referrer": ""
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1001,
+    "session_id": 71,
+    "timestamp": "2025-07-06T02:40:00Z",
+    "metadata": {
+      "video_id": "vid-docker-compose",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "paused_video",
+    "user_id": 1001,
+    "session_id": 71,
+    "timestamp": "2025-07-06T02:45:00Z",
+    "metadata": {
+      "video_id": "vid-docker-compose",
+      "current_time": 300
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1001,
+    "session_id": 71,
+    "timestamp": "2025-07-06T02:55:00Z",
+    "metadata": {
+      "video_id": "vid-docker-compose",
+      "total_time": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1002,
+    "session_id": 72,
+    "timestamp": "2025-07-06T03:00:00Z",
+    "metadata": {
+      "text_id": "doc-linux-fundamentals"
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1002,
+    "session_id": 72,
+    "timestamp": "2025-07-06T03:15:00Z",
+    "metadata": {
+      "text_id": "doc-linux-fundamentals",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1003,
+    "session_id": 73,
+    "timestamp": "2025-07-06T03:20:00Z",
+    "metadata": {
+      "page_id": "/community",
+      "referrer": "/forum"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1004,
+    "session_id": 74,
+    "timestamp": "2025-07-06T03:25:00Z",
+    "metadata": {
+      "video_id": "vid-mobile-ux-ui",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1004,
+    "session_id": 74,
+    "timestamp": "2025-07-06T03:40:00Z",
+    "metadata": {
+      "video_id": "vid-mobile-ux-ui",
+      "total_time": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1005,
+    "session_id": 75,
+    "timestamp": "2025-07-06T03:45:00Z",
+    "metadata": {
+      "text_id": "doc-career-guidance"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1005,
+    "session_id": 75,
+    "timestamp": "2025-07-06T04:00:00Z",
+    "metadata": {
+      "text_id": "doc-career-guidance",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1006,
+    "session_id": 76,
+    "timestamp": "2025-07-06T04:05:00Z",
+    "metadata": {
+      "page_id": "/settings/privacy",
+      "referrer": "/settings/account"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1007,
+    "session_id": 77,
+    "timestamp": "2025-07-06T04:10:00Z",
+    "metadata": {
+      "video_id": "vid-ai-applications",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1007,
+    "session_id": 77,
+    "timestamp": "2025-07-06T04:30:00Z",
+    "metadata": {
+      "video_id": "vid-ai-applications",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1008,
+    "session_id": 78,
+    "timestamp": "2025-07-06T04:35:00Z",
+    "metadata": {
+      "text_id": "doc-machine-vision"
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1008,
+    "session_id": 78,
+    "timestamp": "2025-07-06T04:50:00Z",
+    "metadata": {
+      "text_id": "doc-machine-vision",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1009,
+    "session_id": 79,
+    "timestamp": "2025-07-06T04:55:00Z",
+    "metadata": {
+      "page_id": "/help",
+      "referrer": ""
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1010,
+    "session_id": 80,
+    "timestamp": "2025-07-06T05:00:00Z",
+    "metadata": {
+      "video_id": "vid-javascript-frameworks",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1010,
+    "session_id": 80,
+    "timestamp": "2025-07-06T05:20:00Z",
+    "metadata": {
+      "video_id": "vid-javascript-frameworks",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1011,
+    "session_id": 81,
+    "timestamp": "2025-07-06T05:25:00Z",
+    "metadata": {
+      "text_id": "doc-secure-coding"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1011,
+    "session_id": 81,
+    "timestamp": "2025-07-06T05:40:00Z",
+    "metadata": {
+      "text_id": "doc-secure-coding",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1012,
+    "session_id": 82,
+    "timestamp": "2025-07-06T05:45:00Z",
+    "metadata": {
+      "page_id": "/privacy-policy",
+      "referrer": "/footer"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1013,
+    "session_id": 83,
+    "timestamp": "2025-07-06T05:50:00Z",
+    "metadata": {
+      "video_id": "vid-api-design",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1013,
+    "session_id": 83,
+    "timestamp": "2025-07-06T06:05:00Z",
+    "metadata": {
+      "video_id": "vid-api-design",
+      "total_time": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1014,
+    "session_id": 84,
+    "timestamp": "2025-07-06T06:10:00Z",
+    "metadata": {
+      "page_id": "/terms-of-service",
+      "referrer": "/footer"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1001,
+    "session_id": 85,
+    "timestamp": "2025-07-06T06:15:00Z",
+    "metadata": {
+      "video_id": "vid-database-normalization",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1001,
+    "session_id": 85,
+    "timestamp": "2025-07-06T06:30:00Z",
+    "metadata": {
+      "video_id": "vid-database-normalization",
+      "total_time": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1002,
+    "session_id": 86,
+    "timestamp": "2025-07-06T06:35:00Z",
+    "metadata": {
+      "text_id": "doc-software-testing"
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1002,
+    "session_id": 86,
+    "timestamp": "2025-07-06T06:50:00Z",
+    "metadata": {
+      "text_id": "doc-software-testing",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1003,
+    "session_id": 87,
+    "timestamp": "2025-07-06T06:55:00Z",
+    "metadata": {
+      "page_id": "/checkout",
+      "referrer": "/pricing"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1004,
+    "session_id": 88,
+    "timestamp": "2025-07-06T07:00:00Z",
+    "metadata": {
+      "video_id": "vid-ai-ethics-advanced",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1004,
+    "session_id": 88,
+    "timestamp": "2025-07-06T07:20:00Z",
+    "metadata": {
+      "video_id": "vid-ai-ethics-advanced",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1005,
+    "session_id": 89,
+    "timestamp": "2025-07-06T07:25:00Z",
+    "metadata": {
+      "text_id": "doc-ux-research"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1005,
+    "session_id": 89,
+    "timestamp": "2025-07-06T07:40:00Z",
+    "metadata": {
+      "text_id": "doc-ux-research",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1006,
+    "session_id": 90,
+    "timestamp": "2025-07-06T07:45:00Z",
+    "metadata": {
+      "page_id": "/dashboard",
+      "referrer": ""
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1007,
+    "session_id": 91,
+    "timestamp": "2025-07-06T07:50:00Z",
+    "metadata": {
+      "video_id": "vid-react-hooks",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1007,
+    "session_id": 91,
+    "timestamp": "2025-07-06T08:05:00Z",
+    "metadata": {
+      "video_id": "vid-react-hooks",
+      "total_time": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1008,
+    "session_id": 92,
+    "timestamp": "2025-07-06T08:10:00Z",
+    "metadata": {
+      "text_id": "doc-data-visualization"
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1008,
+    "session_id": 92,
+    "timestamp": "2025-07-06T08:25:00Z",
+    "metadata": {
+      "text_id": "doc-data-visualization",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1009,
+    "session_id": 93,
+    "timestamp": "2025-07-06T08:30:00Z",
+    "metadata": {
+      "page_id": "/courses/machine-learning/advanced-topics",
+      "referrer": "/courses/machine-learning"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1010,
+    "session_id": 94,
+    "timestamp": "2025-07-06T08:35:00Z",
+    "metadata": {
+      "video_id": "vid-backend-basics",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1010,
+    "session_id": 94,
+    "timestamp": "2025-07-06T08:50:00Z",
+    "metadata": {
+      "video_id": "vid-backend-basics",
+      "total_time": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1011,
+    "session_id": 95,
+    "timestamp": "2025-07-06T08:55:00Z",
+    "metadata": {
+      "text_id": "doc-database-security"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1011,
+    "session_id": 95,
+    "timestamp": "2025-07-06T09:10:00Z",
+    "metadata": {
+      "text_id": "doc-database-security",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1012,
+    "session_id": 96,
+    "timestamp": "2025-07-06T09:15:00Z",
+    "metadata": {
+      "page_id": "/blog/backend-frameworks",
+      "referrer": "/blog"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1013,
+    "session_id": 97,
+    "timestamp": "2025-07-06T09:20:00Z",
+    "metadata": {
+      "video_id": "vid-cloud-security-best-practices",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1013,
+    "session_id": 97,
+    "timestamp": "2025-07-06T09:40:00Z",
+    "metadata": {
+      "video_id": "vid-cloud-security-best-practices",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1014,
+    "session_id": 98,
+    "timestamp": "2025-07-06T09:45:00Z",
+    "metadata": {
+      "text_id": "doc-project-management-agile"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1014,
+    "session_id": 98,
+    "timestamp": "2025-07-06T10:00:00Z",
+    "metadata": {
+      "text_id": "doc-project-management-agile",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1001,
+    "session_id": 99,
+    "timestamp": "2025-07-06T10:05:00Z",
+    "metadata": {
+      "page_id": "/profile/certificates",
+      "referrer": "/profile"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1002,
+    "session_id": 100,
+    "timestamp": "2025-07-06T10:10:00Z",
+    "metadata": {
+      "video_id": "vid-algorithms-advanced",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1002,
+    "session_id": 100,
+    "timestamp": "2025-07-06T10:30:00Z",
+    "metadata": {
+      "video_id": "vid-algorithms-advanced",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "mobile",
+      "browser": "Safari",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1003,
+    "session_id": 101,
+    "timestamp": "2025-07-06T10:35:00Z",
+    "metadata": {
+      "text_id": "doc-data-warehousing"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1003,
+    "session_id": 101,
+    "timestamp": "2025-07-06T10:50:00Z",
+    "metadata": {
+      "text_id": "doc-data-warehousing",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Firefox",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1004,
+    "session_id": 102,
+    "timestamp": "2025-07-06T10:55:00Z",
+    "metadata": {
+      "page_id": "/support/tickets",
+      "referrer": "/support"
+    },
+    "context": {
+      "platform": "web",
+      "device": "tablet",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/126.0.6478.109 Mobile/15E148",
+      "language": "es-ES"
+    }
+  },
+  {
+    "event_type": "started_video",
+    "user_id": 1005,
+    "session_id": 103,
+    "timestamp": "2025-07-06T11:00:00Z",
+    "metadata": {
+      "video_id": "vid-software-engineering-principles",
+      "current_time": 0
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "completed_video",
+    "user_id": 1005,
+    "session_id": 103,
+    "timestamp": "2025-07-06T11:20:00Z",
+    "metadata": {
+      "video_id": "vid-software-engineering-principles",
+      "total_time": 1200
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Edge",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.56",
+      "language": "pt-BR"
+    }
+  },
+  {
+    "event_type": "started_reading",
+    "user_id": 1006,
+    "session_id": 104,
+    "timestamp": "2025-07-06T11:25:00Z",
+    "metadata": {
+      "text_id": "doc-containerization"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "completed_reading",
+    "user_id": 1006,
+    "session_id": 104,
+    "timestamp": "2025-07-06T11:40:00Z",
+    "metadata": {
+      "text_id": "doc-containerization",
+      "read_duration": 900
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "en-US"
+    }
+  },
+  {
+    "event_type": "page_viewed",
+    "user_id": 1007,
+    "session_id": 105,
+    "timestamp": "2025-07-06T11:45:00Z",
+    "metadata": {
+      "page_id": "/instructor-dashboard",
+      "referrer": "/dashboard"
+    },
+    "context": {
+      "platform": "web",
+      "device": "desktop",
+      "browser": "Chrome",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "language": "pt-BR"
+    }
+  }
+ ]
