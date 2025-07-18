@@ -1,0 +1,3 @@
+[submodule "extensao-server"]
+	path = extensao-server
+	url = https://github.com/Extensao2/extensao-server
